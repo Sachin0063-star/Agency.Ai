@@ -49,7 +49,7 @@ const App = () => {
 
 
   return (
-    <div className='dark:bg-black relative'>
+    <div className="min-h-screen bg-white dark:bg-gray-900 text-gray-800 dark:text-white transition-colors duration-300">
       <Toaster/>
       <Navbar theme={theme} setTheme={setTheme}/>
       <Hero/>
